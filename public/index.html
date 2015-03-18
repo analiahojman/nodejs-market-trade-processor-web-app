@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Currency Fair - Market Trade Processor</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/tradeMessage.css">
+
+  </head>
+
+	<body>
+		<div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+	           <li role="presentation" class="active"><a href="#">Real Time Chart</a></li>
+	           <li role="presentation"><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Market Trade Processor</h3>
+      </div>
+    	
+      <div id="piechart_trade_msg_by_orig_country" class="trade-message-chart"></div>  		
+    		
+      <footer class="footer">
+        <p>&copy; Author: Analia Hojman - Currency Fair Test - March 2015 </p>
+      </footer>
+    </div>
+
+    <script src="/js/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="https://market-trade-processor-api.herokuapp.com/faye/client.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/tradeMessage.js"></script>
+
+  </body>
+
+</html>
+
+
