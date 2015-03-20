@@ -1,7 +1,9 @@
-##Node.js Trade Message Processor - Web App (Subscriber)
+##Node.js Market Trade Processor
+## Web App (Subscriber)
 
-This repo contains the source code of the Trade Message Processor Web App (Subscriber)
+This repo contains the source code of the Trade Message Processor Web App (Subscriber) <br>
 Author: Analia Hojman
+Deployed: (https://market-trade-processor.herokuapp.com/)
 
 ##Tech Stack:
 + Node.js
